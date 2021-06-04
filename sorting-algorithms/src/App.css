@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+      background-color: rgb(59, 58, 58);
+      color: white;
+      grid-template-columns: 30% 60%;
+      column-gap: 10%;
+      padding: 0% 5%;
+      display: grid;
+}
