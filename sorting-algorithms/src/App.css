@@ -45,3 +45,18 @@ nav{
       padding: 0% 5%;
       display: grid;
 }
+
+button{
+      background-color: teal;
+      border: teal;
+      color: white;
+      outline: teal;
+      padding: 2% 2%;
+      margin: 5px;
+      font-size: large;
+}
+
+button:hover{
+      background-color: black;
+      cursor: pointer;
+}
