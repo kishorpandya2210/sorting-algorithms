@@ -29,7 +29,7 @@ function BubbleSort({divs}) {
                 div_update(divs[j],parseInt(divs[j].getAttribute("id")), "red");//Height update
                 div_update(divs[j+1],parseInt(divs[j+1].getAttribute("id")), "red");//Height update
             }
-            div_update(divs[j],parseInt(divs[j].getAttribute("id")), "blue");//Color updat
+            div_update(divs[j],parseInt(divs[j].getAttribute("id")), "blue");//Color update
         }
         div_update(divs[j],parseInt(divs[j].getAttribute("id")), "green");//Color update
     }
