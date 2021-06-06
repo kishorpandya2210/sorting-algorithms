@@ -1,6 +1,7 @@
 import React from 'react'
 import Array from './Array'
 import DisableButtons from './DisableButtons'
+import InsertionSort from './sorts/InsertionSort'
 import BubbleSort from './sorts/BubbleSort'
 import SelectionSort from './sorts/SelectionSort'
 var divs=[]
@@ -20,7 +21,7 @@ function Button({text}) {
                     SelectionSort({divs});
                     break;
                 case "Insertion Sort":
-                    // InsertionSort();
+                    InsertionSort({divs});
                     break;
                 case "Merge Sort":
                     // MergeSort();

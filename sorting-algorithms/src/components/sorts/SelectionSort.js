@@ -1,5 +1,3 @@
-import React from 'react'
-
 function SelectionSort({divs}) {
 
     var delay_time=10000/(Math.floor(divs.length/10)*100);        //Decrease numerator to increase speed.
@@ -23,7 +21,7 @@ function SelectionSort({divs}) {
 
             if(parseInt(divs[j].getAttribute("id"))<parseInt(divs[index_min].getAttribute("id")))
             {
-                if(index_min!=i)
+                if(index_min!=+i)
                 {
                     div_update(divs[index_min],parseInt(divs[index_min].getAttribute("id")),"blue");//Color update
                 }
@@ -36,7 +34,7 @@ function SelectionSort({divs}) {
             }
         }
         
-        if(index_min!=i)
+        if(index_min!=+i)
         {
             var temp=divs[index_min].getAttribute("id");
             divs[index_min].setAttribute("id", divs[i].getAttribute("id"));
