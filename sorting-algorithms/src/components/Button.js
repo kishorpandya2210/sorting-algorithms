@@ -1,5 +1,6 @@
 import React from 'react'
 import Array from './Array'
+import DisableButtons from './DisableButtons'
 import BubbleSort from './sorts/BubbleSort'
 import SelectionSort from './sorts/SelectionSort'
 var divs=[]
@@ -31,9 +32,9 @@ function Button({text}) {
                     // HeapSort();
                     break;
                 default:
-                    break;
+                    break;     
             }
-
+            // DisableButtons({text});
         }
     }
 

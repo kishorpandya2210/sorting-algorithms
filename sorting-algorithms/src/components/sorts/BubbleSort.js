@@ -1,4 +1,5 @@
 import React from 'react'
+import EnableButtons from '../EnableButtons';
 
 function BubbleSort({divs}) {
 
@@ -35,6 +36,7 @@ function BubbleSort({divs}) {
     }
     div_update(divs[0],parseInt(divs[j].getAttribute("id")), "green");//Color update
 
+    // EnableButtons();
     return;
 }
 
