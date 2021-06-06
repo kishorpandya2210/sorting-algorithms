@@ -6,6 +6,12 @@ function App() {
   return (
     <div className="App">
         <Navbar></Navbar>
+        <section>
+        <div id="array_container">
+            
+        </div>
+        </section>
+        
     </div>
     
   );

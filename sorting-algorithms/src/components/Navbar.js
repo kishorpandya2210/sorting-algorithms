@@ -2,12 +2,13 @@ import React from 'react'
 import Button from './Button'
 
 const Navbar = () => {
+
     return (
         <div>
             <nav>
                 <div className="array_size">
                     <p>Size of array</p>
-                    <input id="size" type="range" min="20" max="250" step="1" value="80"></input>
+                    <input id="size" type="range" min="20" max="250" step="5"></input>
                     <br></br>
                     <Button id="generate" text="Generate Array"></Button>
                 </div>
