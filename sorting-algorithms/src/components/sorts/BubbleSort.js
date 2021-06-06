@@ -35,11 +35,7 @@ function BubbleSort({divs}) {
     }
     div_update(divs[0],parseInt(divs[j].getAttribute("id")), "green");//Color update
 
-    return (
-        <div>
-            
-        </div>
-    )
+    return;
 }
 
 export default BubbleSort
