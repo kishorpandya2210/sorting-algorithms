@@ -7,7 +7,7 @@ const Selection =({array=[],order}) => {
                     min=j;
                 swap(array[min],array[i])
             }
-            else if(order==="decending") { 
+            else if(order==="descending") { 
                 if(array[j] > array [max])
                     max=j;
                 swap(array[max],array[i])        
